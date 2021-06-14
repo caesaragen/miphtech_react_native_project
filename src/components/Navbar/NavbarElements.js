@@ -84,6 +84,30 @@ export const MobileIcon = styled.div`
       &.active {
          border-bottom: 3px solid #ff0000;
       }
+      `;
+      export const NavBtn = styled.nav`
+      display: flex;
+      align-items: center;
+
+      @media screen and (max-width: 768 px){
+         display: none;
+      }
+      `
+      export const NavBtnLink = styled(LinkR)  `
+      border-radius: 50px;
+      background: #01bf71;
+      white-space: nowrap;
+      padding: 10px 22px;
+      font-size: 16 px;
+      outline:none;
+      border: none;
+      cursor:pointer;
+      transition:all 0.2s ease-in-out;
+      &:hover{
+         transition:all 0.2s ease-in-out;
+         background:#fff;
+         color:#010606;
+      }
       `
 
 
