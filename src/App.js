@@ -10,7 +10,6 @@ function App() {
   return (
     <Router>
      <Navbar />
-     <Sidebar />
      <Home />
      <Footer />
     </Router>
